@@ -1,6 +1,10 @@
 # metasploit
 Script para remoção do postgresql e reinstalação do Metasploit Framework no kali Linux
 
+# Download
+$ git clone https://github.com/thiagosmith/metasploit.git
+$ cd metasploit
+
 # Modo de uso
 $ sudo ./metasploit.sh
 
