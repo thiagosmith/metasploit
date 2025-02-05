@@ -3,7 +3,10 @@ Script para remoção do postgresql e reinstalação do Metasploit Framework no 
 
 # Download
 $ git clone https://github.com/thiagosmith/metasploit.git
+
 $ cd metasploit
+
+$ chmod +x metasploit.sh
 
 # Modo de uso
 $ sudo ./metasploit.sh
