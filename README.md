@@ -9,6 +9,8 @@ $ cd metasploit
 $ chmod +x metasploit.sh
 
 # Modo de uso
+$ dos2unix ./metasploit.sh
+
 $ sudo ./metasploit.sh
 
 # Observação
