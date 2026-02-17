@@ -5,9 +5,11 @@ echo "[+]++++++++++++++ Removendo o PostgreSQL: ++++++++++++++++++++++++[+]"
 sudo apt remove --purge postgresql-15 -y 2>/dev/null
 sudo apt remove --purge postgresql-16 -y 2>/dev/null
 sudo apt remove --purge postgresql-17 -y 2>/dev/null
+sudo apt remove --purge postgresql-18 -y 2>/dev/null
 sudo apt remove --purge postgresql-client-15 -y 2>/dev/null
 sudo apt remove --purge postgresql-client-16 -y 2>/dev/null
 sudo apt remove --purge postgresql-client-17 -y 2>/dev/null
+sudo apt remove --purge postgresql-client-18 -y 2>/dev/null
 
 echo "[+]+++++++++++++ Atualizando a lista dos repositório: ++++++++++++[+]"
 sudo apt update -y 2>/dev/null
@@ -32,3 +34,4 @@ sudo msfdb status
 
 echo "[+]++++++++++++++++ Executa o Metasploit Framework: ++++++++++++++[+]"
 msfconsole
+
